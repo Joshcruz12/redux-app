@@ -1,6 +1,7 @@
 import React from 'react'
+import './styles/PokemonCard.css'
 
-const Card = () => {
+const PokemonCard = () => {
   return (
     <div className="cards-container">
       <div className="grid-father_container">
@@ -45,4 +46,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default PokemonCard
